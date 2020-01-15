@@ -1,0 +1,246 @@
+
+#order {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.title-container {
+    padding-top: 50px;
+}
+
+#order-container {
+    max-width: 791px;
+    background: #FFFFFF;
+    box-shadow: 0 8px 40px rgba(155, 155, 155, 0.25);
+    border-radius: 10px;
+    margin: 60px auto 80px auto;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.block-title {
+    display: flex;
+
+}
+
+.order-block {
+    border: 1px solid #76B26F;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 30px;
+    margin-bottom: 40px;
+}
+
+.order-block-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-block-title {
+    font-family: "PlayfairDisplayBold", sans-serif;
+    color: #373B2E;
+    font-size: 24px;
+    padding: 0 30px;
+    margin-top: -30px;
+    background: #ffffff;
+    max-width: 249px;
+    box-sizing: border-box;
+}
+
+.block-input-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 220px;
+    width: 100%;
+}
+
+.block-input-text label {
+    font-family: "MullerBold", sans-serif;
+    color: #373B2E;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-bottom: 12px;
+}
+
+.block-input-text input {
+    width: 100%;
+    padding: 20px 15px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-decoration: none;
+    outline: 0;
+}
+
+.block-input-phone {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-left: 20px;
+}
+
+.block-input-phone label {
+    font-family: "MullerBold", sans-serif;
+    color: #373B2E;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-bottom: 12px;
+}
+
+.block-input-phone input {
+    width: 100%;
+    padding: 20px 15px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-decoration: none;
+    outline: 0;
+}
+
+.block-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 13px;
+}
+
+#order-container-city {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#order-container-city .block-input-text {
+    max-width: 352px;
+}
+
+.order-title {
+    max-width: 359px;
+}
+
+.radio_label span {
+    font-family: "MullerBold", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #373B2E;
+}
+
+.radio_label .freedom-text {
+    font-family: "MullerRegularItalic", sans-serif;
+    font-size: 14px;
+    color: #828282;
+    padding-left: 40px;
+    text-transform: none;
+}
+
+.radio div {
+    font-family: "MullerRegularItalic", sans-serif;
+    font-size: 14px;
+    color: #373B2E;
+    max-width: 516px;
+    padding-left: 36px;
+    line-height: 17px;
+}
+
+.radio {
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+#order-radio-container {
+    padding-bottom: 10px;
+}
+
+#order-radio-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-title-comment {
+    max-width: 328px;
+}
+
+textarea {
+    font-family: "MullerRegular", sans-serif;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px;
+    text-decoration: none;
+    outline: 0;
+}
+
+.block-textarea {
+    max-width: 100%;
+    padding-top: 30px;
+}
+
+.order-main-title {
+    font-family: "MullerRegular", sans-serif;
+    color: #828282;
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.order-btn {
+    max-width: 467px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.gods-block-btn {
+    font-size: 24px;
+    padding: 25px 30px;
+}
+
+.alert {
+    text-align: center;
+}
+#thank {
+    display: none;
+}
+#thank .order-block {
+    padding: 10px 20px 25px 30px;
+}
+#thank .title-container-text {
+    width: 140px;
+}
+
+#thank-container {
+    max-width: 791px;
+    background: #FFFFFF;
+    box-shadow: 0 8px 40px rgba(155, 155, 155, 0.25);
+    border-radius: 10px;
+    margin: 60px auto 80px auto;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+#thank-container .order-block-title{
+    max-width: 169px;
+    color: #76B26F;
+}
+
+#thank-title {
+    font-family: "MullerBold",sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #373B2E;
+    padding: 25px 0 15px 30px;
+}
+
+#thank-text {
+    font-family: "MullerRegular",sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #373B2E;
+    padding: 25px 0 0 30px;
+}

@@ -1,0 +1,705 @@
+body {
+    margin: 0;
+    background: #FBFBFB;
+}
+
+@font-face {
+    font-family: "Muller";
+    src: url("../fonts/MullerRegular.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'MullerRegular';
+    src: url("../fonts/MullerRegular.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'MullerBold';
+    src: url("../fonts/MullerBold.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MullerExtraBold";
+    src: url("../fonts/MullerExtraBold.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MullerBlack";
+    src: url("../fonts/MullerBlack.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MullerMedium";
+    src: url("../fonts/MullerMedium.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MullerRegularItalic";
+    src: url("../fonts/MullerRegularItalic.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "CorinthiaRegular";
+    src: url("../fonts/CorinthiaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: "PlayfairDisplayBold";
+    src: url("../fonts/PlayfairDisplay-Bold.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: "PlayfairDisplayRegular";
+    src: url("../fonts/PlayfairDisplay-Regular.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "LifehackBasic";
+    src: url("../fonts/LifehackBasicRegular.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: "GilroyBold";
+    src: url("../fonts/Gilroy-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+#header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+}
+
+#header-logo {
+    display: flex;
+    justify-content: space-between;
+    width: 224px;
+    align-items: center;
+}
+
+#header-logo-line {
+    padding-left: 15px;
+    border-left: 1px solid #C8C8C8;;
+}
+
+#header-logo-text {
+    font-family: "MullerMedium", sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    width: 124px;
+}
+
+#header-menu {
+    width: 502px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu-item a {
+    font-family: "MullerMedium", sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #373B2E;
+    text-decoration: none;
+}
+
+.header-menu-item a:hover {
+    color: #51835B;
+    cursor: pointer;
+}
+
+#header-basket {
+    position: relative;
+    padding: 15px;
+}
+
+#header-basket-img {
+    display: flex;
+    flex-direction: column;
+    width: 35px;
+    align-items: center;
+}
+
+#header-basket a {
+    text-decoration: none;
+    justify-content: space-between;
+    outline: none;
+    display: flex;
+    align-items: flex-end;
+    width: 115px;
+}
+
+#header-basket-img img:nth-child(1) {
+    width: 20px;
+    padding-bottom: 3px;
+}
+
+#header-basket-text div:nth-child(1) {
+    font-family: "MullerRegular", sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #373B2E;
+    padding-bottom: 4px;
+}
+
+#header-basket-text div:nth-child(2) {
+    font-family: "MullerMedium", sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #373B2E;
+}
+
+#goods {
+    background: url(../img/good-bg.png) center no-repeat;
+    height: 75px;
+    display: flex;
+}
+
+#goods-container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#goods-container-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 770px;
+}
+
+.goods-item {
+    font-family: "MullerMedium", sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.goods-item:hover {
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.goods-item.active {
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+#goods-container-search input {
+    width: 306px;
+    padding: 14px 0 14px 24px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-family: "MullerMedium", sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #828282;
+    border: none;
+    text-decoration: none;
+    outline: 0;
+}
+
+#goods-container-search {
+    position: relative;
+}
+
+#goods-container-search a {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+
+#goods-container-search img:nth-child(2) {
+    position: absolute;
+    right: 5px;
+    top: 3px;
+}
+
+
+.title-container {
+    margin-left: -105px;
+    padding-top: 80px;
+}
+
+.title-container-title {
+    font-family: 'Corinthiaregular', sans-serif;
+    font-size: 85px;
+    background: linear-gradient(112.75deg, #B7E8C1 7.31%, #3C934E 92.33%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: table;
+    margin: 0 auto;
+}
+
+
+.title-container-text {
+    font-family: "PlayfairDisplayBold", sans-serif;
+    font-size: 35px;
+    color: #373B2E;
+    width: 130px;
+    margin: -30px auto 0 auto;
+    padding-left: 200px;
+}
+
+
+#sale-goods {
+    background: #E5E5E5;
+}
+
+#sale-goods-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.sale-goods-block {
+    width: 282px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 15px rgba(200, 194, 194, 0.35);
+    border-radius: 5px;
+    height: 337px;
+    margin-bottom: 20px;
+    padding: 10px 15px 15px 15px;
+    box-sizing: border-box;
+}
+
+#sale-goods-main-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gods-block-img {
+    box-sizing: border-box;
+    width: 162px;
+    height: 162px;
+    margin: 0 auto;
+}
+
+.gods-block-img img {
+    width: 100%;
+    background-position: center;
+}
+
+.gods-block-title {
+    font-family: "MullerBold", sans-serif;
+    font-size: 17px;
+    color: #313131;
+    line-height: 20px;
+    padding: 10px 0 10px 0;
+}
+
+.gods-block-descr {
+    font-family: "MullerRegular", sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    padding-bottom: 20px;
+}
+
+.gods-block-price {
+    font-family: "MullerBold", sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #313131;
+}
+
+.gods-block-btn {
+    background-image: linear-gradient(180deg, #FF9E99 0%, #FF7169 100%);
+    box-shadow: 0 2px 3px #D34C44;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "MullerBold", sans-serif;
+    outline: 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    padding: 5px 30px;
+    text-decoration: none;
+}
+
+.basket-btn {
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+}
+
+.gods-block-btn:hover {
+    background-image: linear-gradient(180deg, #FF9993 0%, #FE4C41 100%);
+}
+
+.gods-block-btn span {
+    padding-top: 6px;
+}
+
+
+.gods-block-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    list-style: none;
+    padding-bottom: 80px;
+    margin: 0;
+}
+
+.pagination-arrow-left {
+    padding-right: 50px;
+}
+
+.pagination-arrow-right {
+    padding-left: 50px;
+}
+
+.pagination-number {
+    margin: 0 17px;
+    background: #EAFFEE;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.pagination-number a {
+    font-family: "MullerRegular", sans-serif;
+    font-size: 17px;
+    line-height: 52px;
+    color: #63916C;
+    text-decoration: none;
+}
+
+.pagination .pagination-number.active {
+    text-align: center;
+
+    background: #94C49D;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+}
+
+.pagination .pagination-number.active a {
+    color: #FFFFFF;
+}
+
+#goods-title {
+    padding-top: 30px;
+}
+
+#goods-title a {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: "MullerRegular", sans-serif;
+    color: #828282;
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+}
+
+
+.radio {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.radio_input {
+    -webkit-appearance: none; /* Chrome */
+    -moz-appearance: none; /* Firefox */
+    appearance: none; /* убираем стандартные кружочки */
+    position: absolute;
+}
+
+.radio_label {
+    font-family: "MullerRegular", sans-serif;
+    padding-left: 25px; /* отступ слева */
+    font-size: 14px;
+    color: #3F3F3F;
+    line-height: 25px;
+    cursor: pointer; /* курсор рука */
+}
+
+.radio_label:before {
+    content: "";
+    display: block; /* не в строку */
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc; /* рамка */
+    background-color: #fff; /* цвет фона */
+    border-radius: 50%; /* получаем круг */
+    position: absolute; /* расположен точно в родителе */
+    top: 0; /* расстояние от верха родителя */
+    left: 0; /* расстояние слева от родителя */
+    z-index: 1; /* на нижнем слое */
+    transition: border .1s linear; /* плавный переход для border */
+}
+
+.radio_label:after {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #94C39D;
+    border-radius: 50%;
+    opacity: 0; /* полностью прозрачный */
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 2; /* на верхнем слое */
+    transition: opacity .1s linear; /* плавный переход для opacity */
+}
+
+.radio_label span {
+    margin-left: 10px;
+}
+
+.radio_input:checked + .radio_label:before {
+
+    border-color: #319612;
+
+}
+
+.radio_input:checked + .radio_label:after {
+    opacity: 1;
+}
+
+
+.quantity-block {
+    width: 100px;
+}
+
+.quantity-block::after {
+    content: 'шт.';
+    display: flex;
+    justify-content: center;
+    margin-top: -17px;
+    margin-right: -14px;
+    font-family: "MullerRegular", sans-serif;
+    font-size: 17px;
+    color: #373B2E;
+}
+
+.quantity-arrow-minus,
+.quantity-arrow-plus {
+    cursor: pointer;
+    font-size: 17px;
+    color: #373B2E;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #94C39D;
+    text-align: center;
+    background-color: transparent;
+    font-family: "MullerRegular", sans-serif;
+    padding: 2px;
+}
+
+.quantity-num {
+    font-family: "MullerRegular", sans-serif;
+    font-size: 17px;
+    color: #373B2E;
+    background-color: transparent;
+    border: transparent;
+    text-align: left;
+    width: 50px;
+    text-decoration: none;
+    outline: 0;
+}
+
+.alert {
+    font-family: "MullerRegular", sans-serif;
+    color: #ff0007;
+    padding-top: 10px;
+    display: none;
+}
+
+#footer {
+    background: url("../img/footer-bg.png") center no-repeat;
+    height: 209px;
+    width: 100%;
+}
+
+#footer-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+#footer-logo {
+    display: flex;
+    width: 241px;
+    align-items: center;
+}
+
+#footer-logo-title {
+    font-family: "MullerExtraBold", sans-serif;
+    font-size: 20px;
+    color: #373B2E;
+    padding-right: 15px;
+}
+
+
+#footer-logo-line {
+    padding-left: 15px;
+    border-left: 1px solid #000000;
+}
+
+#footer-logo-text {
+    font-family: "MullerMedium", sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    width: 124px;
+}
+
+.footer-menu-item {
+    padding-bottom: 15px;
+}
+
+.footer-menu-item a {
+    font-family: "MullerMedium", sans-serif;
+    font-size: 17px;
+    color: #3F3F3F;
+    text-decoration: none;
+}
+
+.footer-menu-item a:hover {
+    color: #51835B;
+    cursor: pointer;
+}
+
+#footer-social-title {
+    font-family: "MullerMedium", sans-serif;
+    line-height: 17px;
+    font-size: 17px;
+    color: #313131;
+    padding-bottom: 13px;
+}
+
+#footer-social-icon {
+    display: flex;
+}
+
+#footer-social-icon a:nth-child(1) {
+    margin-right: 22px;
+}
+
+.footer-social-ellipse {
+    width: 35px;
+    height: 35px;
+    border: 2px solid #313131;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+.footer-social-ellipse i {
+    color: #373B2E;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.footer-social-ellipse svg {
+    padding-top: 8px;
+}
+
+#footer-phone a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#footer-phone div {
+    font-family: "GilroyBold", sans-serif;
+    font-size: 28px;
+    color: #373B2E;
+    padding-left: 16px;
+}
+
+#footer i:hover {
+    color: #51835B;
+    cursor: pointer;
+}
+
+#footer a:hover {
+    color: #51835B;
+    fill: #51835B;
+    stroke: #51835B;
+    cursor: pointer;
+}
+
+
+.footer-social-ellipse:hover {
+    border: 2px solid #51835B;
+}
+
+#footer-messengers-title {
+    font-family: "MullerMedium", sans-serif;
+    font-size: 17px;
+    color: #000000;
+    padding: 33px 0 21px 0;
+}
+
+#footer-contact-messengers div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 164px;
+}

@@ -1,0 +1,101 @@
+#goods-title a:nth-child(2) {
+    font-family: "MullerBold", sans-serif;
+}
+
+.title-container .title-container-text {
+    width: 180px;
+}
+
+#gods-filter {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-top: 65px;
+    padding-bottom: 45px;
+}
+#gods-main-filter {
+    display: none;
+}
+#gods-filter:hover {
+    cursor: pointer;
+}
+
+#gods-filter-title {
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-family: "MullerBold", sans-serif;
+    color: #3F3F3F;
+}
+
+#gods-filter-menu-title {
+    padding-bottom: 20px;
+    font-family: "MullerBold", sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #3F3F3F;
+}
+
+#filter-menu-items {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1070px;
+}
+
+#gods-filter-pagination-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    align-items: center;
+}
+
+.filter-pagination-price-input {
+    width: 282px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-pagination-title {
+    font-family: "MullerBold", sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #3F3F3F;
+    padding-bottom: 9px;
+}
+
+.filter-pagination-price input {
+    padding: 16px 0 16px 16px;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-decoration: none;
+    outline: 0;
+    width: 132px;
+    color: #3F3F3F;
+    font-family: "MullerRegular", sans-serif;
+}
+
+.filter-pagination-select {
+    width: 282px;
+    overflow: hidden;
+    background: url("../img/select-arow.png") no-repeat right 4% center #ddd;
+    background-color: #ffffff;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.filter-pagination-select select {
+    font-family: "MullerRegular", sans-serif;
+    text-decoration: none;
+    outline: 0;
+    background: transparent;
+    width: 282px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    color: #3F3F3F;
+}
